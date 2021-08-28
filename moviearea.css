@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: black; 
+}
+
+.container .head {
+    position: absolute;
+    top: 10;
+    left: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0px 50px;
+    z-index: 1000000;
+}
+
+.container .head img{
+    width: 13%;
+}
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+.no img{
+    margin: 5px;
+}
+html{
+    overflow:scroll;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
